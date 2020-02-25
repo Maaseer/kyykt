@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6157274-f541-4858-ad21-f5ae6915e4cc" name="Default Changelist" comment="搭建了一个服务中心，一个注册在线上的服务，一个注册在线上的服务消费者">
-      <change afterPath="$PROJECT_DIR$/euerka-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/src/main/java/com/zstu/ky/kyykt/euerkaclient/DiscoverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/src/main/java/com/zstu/ky/kyykt/euerkaclient/EuerkaClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euerka-client/src/test/java/com/zstu/ky/kyykt/euerkaclient/EuerkaClientApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/src/main/java/com/zstu/ky/kyykt/eurekacustomer/EurekaCustomerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/src/main/java/com/zstu/ky/kyykt/eurekacustomer/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-customer/src/test/java/com/zstu/ky/kyykt/eurekacustomer/EurekaCustomerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euerka/src/main/java/com/zstu/ky/kyykt/euerka/EuerkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/euerka/src/main/java/com/zstu/ky/kyykt/euerka/EuerkaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euerka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/euerka/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,43 +22,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/euerka/src/main/java/com/zstu/ky/kyykt/euerka/EuerkaApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/euerka-client/src/main/java/com/zstu/ky/kyykt/euerkaclient/EuerkaClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/euerka-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
               <caret line="2" column="16" selection-start-line="2" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/euerka-client/src/main/java/com/zstu/ky/kyykt/euerkaclient/DiscoverController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#417#433#1" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#799#800#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -112,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-customer/src/main/java/com/zstu/ky/kyykt/eurekacustomer/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="484">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#439#440#0" expanded="true" />
@@ -124,6 +65,38 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-customer/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -174,6 +147,7 @@
         <option value="$PROJECT_DIR$/eureka-customer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka-customer/src/main/java/com/zstu/ky/kyykt/eurekacustomer/TestController.java" />
         <option value="$PROJECT_DIR$/eureka-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -210,6 +184,11 @@
               <item name="kyykt" type="b2602c69:ProjectViewProjectNode" />
               <item name="kyykt" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kyykt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kyykt" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-customer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +204,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582635216888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582635582600" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -298,12 +277,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582553913447</updated>
-      <workItem from="1582553916051" duration="10301000" />
+      <workItem from="1582553916051" duration="10643000" />
     </task>
+    <task id="LOCAL-00001" summary="搭建了一个服务中心，一个注册在线上的服务，一个注册在线上的服务消费者">
+      <created>1582635249773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582635249773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10301000" />
+    <option name="totallyTimeSpent" value="10643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,6 +303,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -324,17 +312,17 @@
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run Dashboard" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" weight="0.329718" />
       <window_info anchor="bottom" id="Java Enterprise" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Alibaba Cloud View" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -359,6 +347,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="搭建了一个服务中心，一个注册在线上的服务，一个注册在线上的服务消费者" />
@@ -525,13 +523,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-customer/src/main/java/com/zstu/ky/kyykt/eurekacustomer/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="484">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#439#440#0" expanded="true" />
             <element signature="e#487#488#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-customer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
