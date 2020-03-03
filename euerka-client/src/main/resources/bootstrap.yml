@@ -1,0 +1,13 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: eureka-client
+  cloud:
+    config:
+      name: eureka #对应config server Url中的{application}
+      profile: client #配置环境，对应config server Url中的{profile}
+      #label: trunk #配置分支(不配置则默认：git则是master,svn则是trunk)，
+      uri: http://localhost:8003 #配置中心地址
+    inetutils:
+      timeout-seconds: 10

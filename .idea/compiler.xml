@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="config-client" />
         <module name="config-server" />
         <module name="euerka" />
+        <module name="euerka-2" />
         <module name="euerka-client" />
         <module name="eureka-customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +23,7 @@
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="euerka" options="-parameters" />
+      <module name="euerka-2" options="-parameters" />
       <module name="euerka-client" options="-parameters" />
       <module name="eureka-customer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
