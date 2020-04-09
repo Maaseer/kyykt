@@ -1,0 +1,14 @@
+
+server:
+  port: 8003
+eureka:
+  instance:
+    hostname: Server-3
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka
+  server:
+    eviction-interval-timer-in-ms: 5000
+spring:
+  application:
+    name: eureka-server-3

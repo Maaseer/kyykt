@@ -2,19 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
-        <module name="euerka" />
-        <module name="euerka-2" />
         <module name="euerka-client" />
-        <module name="eureka-customer" />
+        <module name="eureka-1" />
+        <module name="eureka-2" />
+        <module name="eureka-3" />
+        <module name="eureka-client-2" />
+        <module name="feign-client-test" />
+        <module name="turbine" />
+        <module name="user-login" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="euerka" target="1.8" />
+      <module name="euerka-2" target="1.8" />
+      <module name="eureka-customer" target="1.8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -22,11 +32,20 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="euerka" options="-parameters" />
       <module name="euerka-2" options="-parameters" />
       <module name="euerka-client" options="-parameters" />
+      <module name="eureka-1" options="-parameters" />
+      <module name="eureka-2" options="-parameters" />
+      <module name="eureka-3" options="-parameters" />
+      <module name="eureka-client-2" options="-parameters" />
       <module name="eureka-customer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="feign-client-test" options="-parameters" />
+      <module name="turbine" options="-parameters" />
+      <module name="user-login" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

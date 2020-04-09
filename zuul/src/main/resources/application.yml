@@ -1,0 +1,34 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka,http://localhost:8003/eureka
+spring:
+  application:
+    name: zuul-appliciation
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://111.231.142.21:3306/ktfzxt?useSSL=FALSE&serverTimezone=UTC
+    username: admin
+    password: q763759021
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8021
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: routes
+zuul:
+  prefix: /api
+  ignored-services: '*'
+  routes:
+    consumer1: /test/**
+mybatis:
+  mapper-locations: classpath:Mapper/*Mapper.xml
+  type-aliases-package: com.zstu.ky.kyykt.zuul.Entity.DO
+
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+debug: true

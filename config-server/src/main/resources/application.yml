@@ -10,6 +10,8 @@
 server:
   port: 8003
 spring:
+  #profiles:
+    #active: native
   cloud:
     config:
       server:
@@ -17,3 +19,5 @@ spring:
           uri: https://github.com/Maaseer/kyykt-config
           search-paths: Server
           default-label: master
+    inetutils:
+      timeout-seconds: 1000
