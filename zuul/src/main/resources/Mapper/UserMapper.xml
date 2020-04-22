@@ -8,12 +8,12 @@
             select * from role,user_role where role.id = user_role.rid and user_role.uid = #{id}
         </select>
     <select id="getAdminUserById" resultType="com.zstu.ky.kyykt.zuul.Entity.DO.AdminUser">
-        select * from adminUser where id =#{id}
+        select * from admin_user where id =#{id}
     </select>
     <select id="getStudentUserById" resultType="com.zstu.ky.kyykt.zuul.Entity.DO.StudentUser">
-        select * from studentUser where id =#{id}
+        select * from student_user where id =#{id}
     </select>
     <select id="getTeacherUserById" resultType="com.zstu.ky.kyykt.zuul.Entity.DO.TeacherUser">
-        select * from teacherUser where id =#{id}
+        select * from teacher_user where id =#{id}
     </select>
     </mapper>

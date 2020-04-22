@@ -14,7 +14,7 @@ public class AdminController {
     public String teacherHello(){
         return "teacher_hello";
     }
-    @GetMapping("/api/student/hello")
+    @GetMapping("/api/teacher/student/hello")
     public String studentHello(){
         return "student_hello";
     }

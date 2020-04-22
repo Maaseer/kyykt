@@ -12,6 +12,19 @@ spring:
     username: admin
     password: q763759021
     driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    host: 111.231.142.21
+    port: 6379
+    password: q763759021
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+
+
 server:
   port: 8021
 
@@ -25,10 +38,9 @@ zuul:
   ignored-services: '*'
   routes:
     consumer1: /test/**
+    USER-INFORMATION: /user/**
 mybatis:
   mapper-locations: classpath:Mapper/*Mapper.xml
   type-aliases-package: com.zstu.ky.kyykt.zuul.Entity.DO
 
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-debug: true
+
