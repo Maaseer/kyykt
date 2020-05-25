@@ -1,4 +1,4 @@
-package RestResult;
+package com.zstu.ky.RestResult;
 
 import  lombok.Getter;
 import  com.alibaba.fastjson.JSON;
@@ -9,17 +9,17 @@ public class Result<T> {
     private String message;
     private T data;
 
-    public Result setCode(int code)
+    public Result<T> setCode(ResultCode code)
     {
-        this.code = code;
+        this.code = code.getCode();
         return this;
     }
-    public Result setMessage(String message)
+    public Result<T> setMessage(String message)
     {
         this.message = message;
         return this;
     }
-    public Result setData(T data)
+    public Result<T> setData(T data)
     {
         this.data = data;
         return this;

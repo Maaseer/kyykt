@@ -7,7 +7,6 @@
         <artifactId>kyykt</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.zstu.ky.kyykt</groupId>
     <artifactId>feign-client-test</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>feign-client-test</name>
@@ -23,7 +22,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-            <version>2.2.1.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -32,13 +30,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.5.RELEASE</version>
         </dependency>
 
         <dependency>

@@ -56,11 +56,11 @@
                 <scope>import</scope>
             </dependency>
             <!--数据库-->
-            <dependency>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-                <version>${mybatis.version}</version>
-            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.mybatis.spring.boot</groupId>-->
+<!--                <artifactId>mybatis-spring-boot-starter</artifactId>-->
+<!--                <version>${mybatis.version}</version>-->
+<!--            </dependency>-->
             <dependency>
                 <groupId>com.baomidou</groupId>
                 <artifactId>mybatis-plus-boot-starter</artifactId>
@@ -131,10 +131,11 @@
                 <artifactId>spring-boot-starter-hateoas</artifactId>
                 <version>2.1.6.RELEASE</version>
             </dependency>
+
         </dependencies>
-
-
     </dependencyManagement>
+
+
     <dependencies>
         <!--jUnit-->
         <dependency>
@@ -171,9 +172,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-commons</artifactId>
         </dependency>
-
-
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-config</artifactId>-->
+        <!--        </dependency>-->
     </dependencies>
+
     <modules>
         <module>eureka-1</module>
         <module>eureka-2</module>
@@ -185,5 +189,6 @@
         <module>zuul</module>
         <module>user-information</module>
         <module>Infrastructure</module>
+        <module>SimHash</module>
     </modules>
 </project>

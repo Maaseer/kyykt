@@ -1,4 +1,4 @@
-package RestResult;
+package com.zstu.ky.RestResult;
 
 public enum ResultCode {
     SUCCESS(200),

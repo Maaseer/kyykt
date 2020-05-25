@@ -9,7 +9,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:8001/eureka,http://localhost:8002/eureka,http://localhost:8003/eureka
 turbine:
-  app-config: spring-cloud-consumer-hystrix-dashboard,eureka-client,eureka-consumer-ribbon
+  app-config: CONSUMER1,EUREKA-CLIENT,EUREKA-SERVER-1,EUREKA-SERVER-2,EUREKA-SERVER-3,SIMHASH,USER-INFORMATION,ZUUL-APPLICIATION
   aggregator:
     cluster-config: default
   cluster-name-expression: new String("default")

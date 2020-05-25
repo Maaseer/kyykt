@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableHystrixDashboard
 @EnableTurbine
+
+
 public class TurbineApplication {
 
     public static void main(String[] args) {

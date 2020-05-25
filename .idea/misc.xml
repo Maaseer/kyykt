@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/eureka-3/pom.xml" />
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/user-information/pom.xml" />
+        <option value="$PROJECT_DIR$/SimHash/pom.xml" />
       </list>
     </option>
   </component>

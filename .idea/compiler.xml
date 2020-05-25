@@ -10,6 +10,7 @@
         <module name="eureka-1" />
         <module name="zuul" />
         <module name="user-information" />
+        <module name="SimHash" />
         <module name="config-server" />
         <module name="turbine" />
         <module name="euerka-client" />
@@ -32,6 +33,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Infrastructure" options="-parameters" />
+      <module name="SimHash" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="demo" options="-parameters" />

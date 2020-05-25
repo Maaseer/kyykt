@@ -7,7 +7,6 @@
         <artifactId>kyykt</artifactId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>com.zstu.ky.kyykt</groupId>
     <artifactId>eureka-3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka-3</name>

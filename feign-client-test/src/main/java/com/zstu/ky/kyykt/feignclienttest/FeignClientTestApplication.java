@@ -29,7 +29,5 @@ public class FeignClientTestApplication {
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
     }
-
-
 }
 
