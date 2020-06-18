@@ -16,62 +16,29 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6157274-f541-4858-ad21-f5ae6915e4cc" name="Default Changelist" comment="添加了基础设施模块">
-      <change afterPath="$PROJECT_DIR$/Infrastructure/src/main/java/com/zstu/ky/RestResult/ResultGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/OutDict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/lombok.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/Config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/Controller/SimHashController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/Impl/SimHashServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/Model/JudgePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/Service/SimHashService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/java/com/zstu/ky/kyykt/demo/SimHashApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/resources/OutDict.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimHash/src/test/java/com/zstu/ky/kyykt/demo/SimHashApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Config/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DTO/Roles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/VO/UserVoBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-information/src/test/java/com/zstu/ky/kyykt/userinformation/UserServiceTest.java" afterDir="false" />
+    <list default="true" id="f6157274-f541-4858-ad21-f5ae6915e4cc" name="Default Changelist" comment="添加了SimHash模块">
+      <change afterPath="$PROJECT_DIR$/eureka-1/src/main/resources/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/longF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/zstu/ky/kyykt/zuul/Config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/src/main/java/RestResult/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/src/main/java/com/zstu/ky/RestResult/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/src/main/java/RestResult/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/src/main/java/com/zstu/ky/RestResult/ResultCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/euerka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/euerka-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/localTest-0.1.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-client-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign-client-test/src/main/java/com/zstu/ky/kyykt/feignclienttest/FeignClientTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-client-test/src/main/java/com/zstu/ky/kyykt/feignclienttest/FeignClientTestApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/src/main/java/com/zstu/kykyykt/turbine/TurbineApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/src/main/java/com/zstu/kykyykt/turbine/TurbineApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/AdminUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/StudentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/StudentUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/TeacherUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Entity/DO/TeacherUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/AdminUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/StudentUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/StudentUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/TeacherUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Service/TeacherUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/UserInformationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/UserInformationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-information/src/test/java/com/zstu/ky/kyykt/userinformation/UserInformationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-information/src/test/java/com/zstu/ky/kyykt/userinformation/UserInformationApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +62,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -125,7 +98,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586914963688" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Infrastructure/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SimHash" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Link" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,22 +112,23 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\resources" />
-      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\java\com\zstu\ky\kyykt\demo\Impl" />
-      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\resources\static" />
-      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\zuul\src\main\resources\Mapper" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zstu.ky.kyykt.zuul.Exception" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash" />
       <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\demo\src\main\resources\Mapper" />
       <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\demo\src\main\java\com\example\demo" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zstu.ky.kyykt.zuul.Exception" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\eureka-1\src\main\resources" />
+      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\resources" />
+      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\java\com\zstu\ky\kyykt\demo\Impl" />
+      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\SimHash\src\main\resources\static" />
+      <recent name="C:\Users\76375\Desktop\毕业论文\Code\kyykt\zuul\src\main\resources\Mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,7 +138,43 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="应用程序.longF">
+    <configuration name="longF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="longF" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deploy to Host" type="DEPLOY_HOST_RUN_CONFIGURATION" factoryName="Deploy to Host" activateToolWindowBeforeRun="false">
+      <option name="accountModel" />
+      <option name="address" value="10.66.2.82" />
+      <option name="afterCommand" value="mvn clean package" />
+      <option name="alreadyReset" value="true" />
+      <option name="autoOpen" value="false" />
+      <option name="beforeCommand" value="" />
+      <option name="defaultTabIdx" value="0" />
+      <option name="ecsInstance">
+        <EcsInstance>
+          <option name="OSType" />
+          <option name="instanceId" />
+          <option name="instanceName" />
+          <option name="netType" />
+          <option name="privateIps" />
+          <option name="publicIps" />
+          <option name="regionId" />
+          <option name="tags" />
+        </EcsInstance>
+      </option>
+      <option name="hostTagId" value="1" />
+      <option name="location" value="/root/development/kyykt" />
+      <option name="pathOrUrl" value="C:\Users\76375\Desktop\毕业论文\Code\kyykt\eureka-2" />
+      <option name="tagId" value="1" />
+      <option name="terminalCommand" />
+      <option name="type" value="HOST" />
+      <option name="uploadType" value="FILE" />
+      <method v="2" />
+    </configuration>
     <configuration name="SimHashApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimHash" />
       <extension name="coverage">
@@ -175,21 +185,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.zstu.ky.kyykt.demo" />
       <option name="MAIN_CLASS_NAME" value="com.zstu.ky.kyykt.demo.SimHashApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserInformationApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-information" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zstu.ky.kyykt.userinformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zstu.ky.kyykt.userinformation" />
-      <option name="MAIN_CLASS_NAME" value="com.zstu.ky.kyykt.userinformation.UserInformationApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,15 +205,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.zstu.ky.kyykt.userinformation在user-information" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="user-information" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zstu.ky.kyykt.userinformation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.zstu.ky.kyykt.userinformation" />
+    <configuration name="所有在config-server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,9 +220,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="SimHash" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zstu.ky.kyykt.demo.SimHashApplication" />
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,6 +269,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimHash" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SimHash" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zstu.ky.kyykt.demo.SimHashApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="turbine" />
       <extension name="coverage">
@@ -307,30 +304,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="eureka-1/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="" />
+          <option name="buildCliOptions" value="" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="eureka-1/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="JUnit.UserInformationApplicationTests" />
-      <item itemvalue="JUnit.com.zstu.ky.kyykt.userinformation在user-information" />
+      <item itemvalue="Deploy to Host.Deploy to Host" />
+      <item itemvalue="Docker.eureka-1/Dockerfile" />
       <item itemvalue="JUnit.UserServiceTest" />
+      <item itemvalue="JUnit.SimHashApplicationTests" />
+      <item itemvalue="JUnit.所有在config-server" />
+      <item itemvalue="Spring Boot.Eureka2Application" />
       <item itemvalue="Spring Boot.ConfigServerApplication" />
       <item itemvalue="Spring Boot.EuerkaClientApplication" />
       <item itemvalue="Spring Boot.Eureka1Application" />
-      <item itemvalue="Spring Boot.Eureka2Application" />
       <item itemvalue="Spring Boot.Eureka3Application" />
       <item itemvalue="Spring Boot.EurekaClient2Application" />
       <item itemvalue="Spring Boot.FeignClientTestApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
       <item itemvalue="Spring Boot.UserInformationApplication" />
+      <item itemvalue="Spring Boot.DemoApplication (1)" />
+      <item itemvalue="Spring Boot.SimHash" />
       <item itemvalue="Spring Boot.TurbineApplication" />
-      <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="JUnit.SimHashApplicationTests" />
+      <item itemvalue="应用程序.longF" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.longF" />
+        <item itemvalue="JUnit.所有在config-server" />
         <item itemvalue="Spring Boot.TurbineApplication" />
         <item itemvalue="JUnit.SimHashApplicationTests" />
         <item itemvalue="JUnit.UserServiceTest" />
-        <item itemvalue="JUnit.UserInformationApplicationTests" />
-        <item itemvalue="JUnit.com.zstu.ky.kyykt.userinformation在user-information" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +393,14 @@
       <workItem from="1588776297974" duration="1013000" />
       <workItem from="1588927847610" duration="1424000" />
       <workItem from="1589111168169" duration="1312000" />
-      <workItem from="1589958160378" duration="32415000" />
+      <workItem from="1589958160378" duration="41695000" />
+      <workItem from="1590550440705" duration="427000" />
+      <workItem from="1590551147025" duration="16856000" />
+      <workItem from="1590711914705" duration="976000" />
+      <workItem from="1591069361521" duration="8319000" />
+      <workItem from="1591682253511" duration="1391000" />
+      <workItem from="1591700625998" duration="5749000" />
+      <workItem from="1592029762268" duration="4465000" />
     </task>
     <task id="LOCAL-00001" summary="搭建了一个服务中心，一个注册在线上的服务，一个注册在线上的服务消费者">
       <created>1582635249773</created>
@@ -430,17 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1587560907139</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加了SimHash模块">
+      <created>1590387193343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590387193343</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
@@ -460,7 +479,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -475,9 +506,26 @@
     <MESSAGE value="配置了熔断机制（Hystrix）、监控面板（Hystrix dashboadr)、服务监控（Hystrix turbine），为一个服务配置了多个服务器，并使用了负载均衡；使用feign实现远程服务调用" />
     <MESSAGE value="添加了Zuul模块，配置了SpringSecurity" />
     <MESSAGE value="添加了基础设施模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了基础设施模块" />
+    <MESSAGE value="添加了SimHash模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加了SimHash模块" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="483" y="114" key="#DemoApplication" timestamp="1591109092240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="114" key="#DemoApplication/0.0.1920.1040@0.0.1920.1040" timestamp="1591109092240" />
+    <state x="665" y="149" key="#Deploy_to_Host" timestamp="1590652100427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="149" key="#Deploy_to_Host/0.0.1920.1040@0.0.1920.1040" timestamp="1590652100427" />
+    <state x="665" y="139" key="#Docker_Image" timestamp="1590651688409">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="139" key="#Docker_Image/0.0.1920.1040@0.0.1920.1040" timestamp="1590651688409" />
+    <state x="842" y="432" key="#Environment_variables" timestamp="1590651906995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="432" key="#Environment_variables/0.0.1920.1040@0.0.1920.1040" timestamp="1590651906995" />
     <state x="796" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589984141910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -498,10 +546,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587029441871" />
+    <state x="665" y="55" key="#eureka-1/Dockerfile" timestamp="1590411827236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="665" y="55" key="#eureka-1/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1590411827236" />
     <state x="746" y="282" key="#toString()_生成设置" timestamp="1587459421037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="746" y="282" key="#toString()_生成设置/0.0.1920.1040@0.0.1920.1040" timestamp="1587459421037" />
+    <state x="715" y="222" key="#xdebugger.evaluate" timestamp="1591700892786">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="222" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1591700892786" />
+    <state x="552" y="161" key="#插件" timestamp="1590557799531">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#插件/0.0.1920.1040@0.0.1920.1040" timestamp="1590557799531" />
     <state x="586" y="198" key="#检查" timestamp="1586926853087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -510,14 +570,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="54" key="#自动导入/0.0.1920.1040@0.0.1920.1040" timestamp="1587734516567" />
-    <state x="395" y="173" key="#项目结构" timestamp="1587987746543">
+    <state x="395" y="173" key="#项目结构" timestamp="1591700676810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="395" y="173" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1587987746543" />
-    <state x="646" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586943766341">
+    <state x="395" y="173" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1591700676810" />
+    <state x="646" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591108960901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="646" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1586943766341" />
+    <state x="646" y="351" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1591108960901" />
     <state x="319" y="87" key="CommitChangelistDialog2" timestamp="1587560767047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -526,42 +586,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1587112810535" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589111198554">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592030750235">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589111198554" />
-    <state width="1318" height="301" key="GridCell.Tab.0.bottom" timestamp="1590386956646">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592030750235" />
+    <state width="1877" height="399" key="GridCell.Tab.0.bottom" timestamp="1592038337517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.0.center" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591160856841" />
+    <state width="1877" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337517" />
+    <state width="1877" height="399" key="GridCell.Tab.0.center" timestamp="1592038337516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.0.left" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591160856840" />
+    <state width="1877" height="399" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337516" />
+    <state width="1877" height="399" key="GridCell.Tab.0.left" timestamp="1592038337516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.0.right" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591160856840" />
+    <state width="1877" height="399" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337516" />
+    <state width="1877" height="399" key="GridCell.Tab.0.right" timestamp="1592038337516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.1.bottom" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591160856840" />
+    <state width="1877" height="399" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337516" />
+    <state width="1877" height="399" key="GridCell.Tab.1.bottom" timestamp="1592038337517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.1.center" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591160856841" />
+    <state width="1877" height="399" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337517" />
+    <state width="1877" height="399" key="GridCell.Tab.1.center" timestamp="1592038337517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.1.left" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591160856841" />
+    <state width="1877" height="399" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337517" />
+    <state width="1877" height="399" key="GridCell.Tab.1.left" timestamp="1592038337517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
-    <state width="1318" height="301" key="GridCell.Tab.1.right" timestamp="1590386956646">
+    <state width="1172" height="484" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591160856841" />
+    <state width="1877" height="399" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337517" />
+    <state width="1877" height="399" key="GridCell.Tab.1.right" timestamp="1592038337517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1318" height="301" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590386956646" />
+    <state width="1172" height="484" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591160856841" />
+    <state width="1877" height="399" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592038337517" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1591700786579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591700786579" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1591700786579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591700786579" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1591700786579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591700786579" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1591700786579">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591700786579" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1586925342761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -578,10 +662,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="531" y="335" width="858" height="628" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1587622907136" />
-    <state x="375" y="228" key="SettingsEditor" timestamp="1587645613570">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1590557833811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="375" y="228" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587645613570" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590557833811" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1590396661939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1590396661939" />
     <state x="759" y="297" key="chooseDestDirectoryDialog" timestamp="1587643329093">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -602,10 +690,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="268" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587871386967" />
-    <state x="490" y="180" key="new project wizard" timestamp="1589958365614">
+    <state x="490" y="180" key="new project wizard" timestamp="1591700665458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589958365614" />
+    <state x="490" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1591700665458" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587961391251">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,6 +711,21 @@
           <url>file://$PROJECT_DIR$/zuul/src/main/java/com/zstu/ky/kyykt/zuul/Config/AuthorizationServerConfig.java</url>
           <line>51</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/longF.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/longF.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/untitled/src/longF.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/user-information/src/main/java/com/zstu/ky/kyykt/userinformation/Controller/AdminController.java</url>

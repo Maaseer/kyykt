@@ -41,7 +41,6 @@ public class AdminUserService {
     final
     Roles roles;
 
-
     Log log = LogFactory.getLog(AdminUserService.class);
 
     public AdminUserService(AdminUserMapper adminUserMapper, UserMapper userMapper, UserRoleMapper userRoleMapper, RoleMapper roleMapper, PasswordEncoder passwordEncoder, Roles roles) {

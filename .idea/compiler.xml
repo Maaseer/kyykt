@@ -9,10 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-1" />
         <module name="zuul" />
-        <module name="user-information" />
+        <module name="demo" />
         <module name="SimHash" />
         <module name="config-server" />
         <module name="turbine" />
+        <module name="user-information" />
         <module name="euerka-client" />
         <module name="feign-client-test" />
         <module name="Infrastructure" />
@@ -23,6 +24,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-client" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="euerka" target="1.8" />
       <module name="euerka-2" target="1.8" />
       <module name="eureka-customer" target="1.8" />

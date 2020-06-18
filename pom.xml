@@ -164,10 +164,10 @@
         </dependency>
 
         <!--eureka client-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-commons</artifactId>
@@ -179,7 +179,7 @@
     </dependencies>
 
     <modules>
-        <module>eureka-1</module>
+
         <module>eureka-2</module>
         <module>eureka-3</module>
         <module>eureka-client-2</module>

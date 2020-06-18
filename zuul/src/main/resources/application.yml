@@ -39,6 +39,7 @@ zuul:
   routes:
     consumer1: /test/**
     USER-INFORMATION: /user/**
+
 mybatis:
   mapper-locations: classpath:Mapper/*Mapper.xml
   type-aliases-package: com.zstu.ky.kyykt.zuul.Entity.DO
